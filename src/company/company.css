@@ -1,0 +1,92 @@
+
+.company_All{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgb(252, 248, 243);
+    z-index: 2;
+    color: #222;
+    user-select: none !important;
+}
+
+.ctr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acrobat_brand{
+    width: 110px;
+    margin-top: 20px;
+}
+
+.shapee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 80%;
+    margin-top: -3em;
+}
+
+.contnt{
+    background-color: #fff;
+    width: 80% !important;
+    height: 70% !important;
+    border-radius: 8px;
+    box-shadow: 2px 2px 3px #999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt_cntr{
+    text-align: center;
+}
+
+.detls{
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-top: 1.3em;
+}
+
+.searchbar{
+    outline: 0;
+    width: 320px;
+    padding: 9px 5px !important;
+    border: 1px solid #999;
+    font-size: 16px;
+    color: #222;
+    transition: all .3s linear;
+    border-radius: 3px;
+}
+
+.searchbar:focus{
+    border-radius: 5px;
+}
+
+.comany_name{
+    margin: 1.3em 0 .5em 0;
+    font-size: 14px;
+}
+
+.enter_btn{
+    background-color: rgb(173, 5, 5);
+    border: 0;
+    outline: 0;
+    color: #fff !important;
+    width: 100%;
+    cursor: pointer;
+    padding: 13px !important;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: monospace !important;
+    margin-top: 20px;
+}
+
+.loadding{
+    width: 180px;
+}
